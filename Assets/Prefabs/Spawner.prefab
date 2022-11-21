@@ -1,0 +1,51 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5486791143529612890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3632626185497198872}
+  - component: {fileID: 2964827350244656751}
+  m_Layer: 0
+  m_Name: Spawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3632626185497198872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5486791143529612890}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2964827350244656751
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5486791143529612890}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 42d79615dc48925409dcce996ad42559, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Cliff: {fileID: 2524335242480302256, guid: 7f47bd2505249d04a8e9be3c8e3cb0b4, type: 3}
+  CliffLong: {fileID: 2524335242480302256, guid: 32fbd237d84a83e4b92feafebdf188c2, type: 3}
+  CliffShort: {fileID: 2524335242480302256, guid: c78e9c32679170b4c85056d349bb7c65, type: 3}
+  CliffObstacle: {fileID: 5070177227261252863, guid: ca35a664297b48d48b44cd7cb1940cf3, type: 3}
+  Coin: {fileID: 4560043583382444763, guid: d959fb8e48d81b34faaeb54c7622866c, type: 3}
